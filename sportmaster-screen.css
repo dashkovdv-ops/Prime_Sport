@@ -1,0 +1,90 @@
+/* Static case area; user-selected Sportmaster layout, native text and original brand pixels. */
+:is(#cases,.brand-case-page) *,:is(#cases,.brand-case-page) *::before,:is(#cases,.brand-case-page) *::after{animation:none!important;transition:none!important}
+:is(#cases,.brand-case-page) .motion-surface{transform:none!important}
+:is(#cases,.brand-case-page) .case-toolbar[hidden]{display:none}
+:is(#cases,.brand-case-page)[data-case-view="sportmaster"]{width:min(1760px,100%);padding-top:124px;padding-bottom:28px;justify-content:flex-start;gap:24px}
+:is(#cases,.brand-case-page)[data-case-view="sportmaster"] .section-heading{margin-bottom:0;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 24px}
+.case-overview-return{min-height:44px;flex-shrink:0}
+.case-overview-return[hidden]{display:none}
+.sportmaster-heading{display:flex;align-items:center;gap:24px;font-size:clamp(40px,4.7vw,76px);line-height:1.08;text-wrap:initial}
+.sportmaster-heading:focus{outline:0}
+.sportmaster-symbol{display:block;flex:0 0 auto;width:110px;height:74px;overflow:hidden}
+.case-sportmaster{--sportmaster-gap:24px;--sportmaster-padding:30px;--sportmaster-copy:clamp(20px,1.64vw,28px);display:grid;gap:var(--sportmaster-gap)}
+.case-sportmaster p{font-size:var(--sportmaster-copy);line-height:1.28;text-wrap:pretty;overflow-wrap:break-word}
+.case-sportmaster h3{font-size:clamp(28px,2.4vw,41px);line-height:1.12;letter-spacing:-.025em;text-wrap:initial}
+.case-sportmaster .glass{border-radius:30px}
+.sportmaster-task{display:flex;align-items:center;gap:24px;padding:22px var(--sportmaster-padding)}
+.sportmaster-task .prime-slash{width:25px;height:62px;margin:0 12px;box-shadow:none}
+.sportmaster-task p{max-width:100%;font-size:clamp(20px,1.68vw,29px)}
+.sportmaster-primary{display:grid;grid-template-columns:minmax(0,2.1fr) minmax(0,1fr);gap:var(--sportmaster-gap);align-items:stretch}
+.sportmaster-results{min-width:0;padding:24px}
+.sportmaster-results h3{margin:0 8px 18px}
+.sportmaster-results sup{position:relative;top:-.15em;font-size:.65em;line-height:0}
+.sportmaster-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.sportmaster-metric{container-type:inline-size;min-width:0;padding:24px 22px;display:flex;flex-direction:column;gap:14px;box-shadow:none}
+.sportmaster-metric>strong{display:block;color:var(--red);font-size:clamp(32px,22cqi,76px);font-weight:650;letter-spacing:-.035em;line-height:1.05;white-space:nowrap;font-variant-numeric:lining-nums tabular-nums}
+.sportmaster-metric p{font-size:clamp(20px,1.6vw,27px);line-height:1.25}
+.sportmaster-panel{min-width:0;padding:var(--sportmaster-padding)}
+.sportmaster-panel h3{margin-bottom:18px}
+.sportmaster-panel p{max-width:74ch}
+.sportmaster-test{display:flex;flex-direction:column;justify-content:center}
+.sportmaster-test h3{font-size:clamp(27px,2.25vw,38px)}
+.sportmaster-secondary{display:grid;grid-template-columns:minmax(0,.83fr) minmax(0,1.17fr);gap:var(--sportmaster-gap)}
+.sportmaster-conclusion strong{color:var(--red);font-weight:700}
+.sportmaster-footer{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 26px}
+.sportmaster-footer .source-note{font-size:clamp(14px,1.02vw,17px);line-height:1.45;max-width:100%;flex:1 1 72ch}
+.sportmaster-navigation{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:12px 22px;margin-left:auto}
+.sportmaster-navigation .text-button{min-height:44px}
+.sportmaster-navigation .case-next{font-size:16px;padding:12px 18px}
+@media(min-width:1100px) and (max-height:1000px){
+ :is(#cases,.brand-case-page)[data-case-view="sportmaster"]{padding-top:112px;padding-bottom:40px}
+ :is(#cases,.brand-case-page)[data-case-view="sportmaster"]{gap:18px}
+ .sportmaster-heading{font-size:56px}
+ .sportmaster-symbol{width:88px;height:59px}
+ .case-sportmaster{--sportmaster-gap:18px;--sportmaster-padding:24px;--sportmaster-copy:23px}
+ .case-sportmaster h3{font-size:32px}
+ .sportmaster-task{padding-top:18px;padding-bottom:18px}
+ .sportmaster-task p{font-size:23px}
+ .sportmaster-results{padding:20px}
+ .sportmaster-results h3{margin-bottom:14px}
+ .sportmaster-metric{padding:20px 16px;gap:10px}
+ .sportmaster-metric p{font-size:21px}
+}
+@media(max-width:1099px){
+ :is(#cases,.brand-case-page)[data-case-view="sportmaster"]{padding-top:116px}
+ .sportmaster-primary{grid-template-columns:1fr}
+ .sportmaster-secondary{grid-template-columns:1fr}
+ .sportmaster-test{gap:0}
+ .sportmaster-symbol{width:86px;height:58px}
+ .sportmaster-heading{gap:18px}
+}
+@media(max-width:679px){
+ :is(#cases,.brand-case-page)[data-case-view="sportmaster"]{padding-top:132px;padding-bottom:40px;gap:18px}
+ .sportmaster-heading{font-size:clamp(30px,7.3vw,45px);gap:12px;letter-spacing:-.03em}
+ .sportmaster-symbol{width:52px;height:36px}
+ .case-sportmaster{--sportmaster-gap:18px;--sportmaster-padding:22px;--sportmaster-copy:20px}
+ .case-sportmaster .glass{border-radius:24px}
+ .case-sportmaster h3{font-size:28px}
+ .sportmaster-task{gap:16px;padding:20px}
+ .sportmaster-task .prime-slash{width:14px;height:45px;margin:0 5px}
+ .sportmaster-task p{font-size:20px}
+ .sportmaster-results{padding:22px 18px}
+ .sportmaster-results h3{margin-left:2px}
+ .sportmaster-metrics{grid-template-columns:1fr;gap:12px}
+ .sportmaster-metric{padding:22px;gap:10px}
+ .sportmaster-metric>strong{font-size:clamp(42px,22cqi,60px)}
+ .sportmaster-metric p{font-size:21px}
+ .sportmaster-panel h3{margin-bottom:14px}
+ .sportmaster-footer .source-note{font-size:14px}
+ .sportmaster-navigation{width:100%;justify-content:space-between;gap:12px;margin:0}
+ .sportmaster-navigation .case-next{font-size:15px;padding:12px 15px}
+}
+@media(max-width:360px){
+ .sportmaster-heading{font-size:30px;gap:10px}
+ .sportmaster-symbol{width:46px;height:31px}
+ .sportmaster-navigation{justify-content:flex-start}
+}
+
+/* Keep the duration range signs distinct at every metric size. */
+.sportmaster-metric>strong.sportmaster-duration{font-size:clamp(24px,19.5cqi,70px);letter-spacing:0}
+@media(max-width:679px){.sportmaster-metric>strong.sportmaster-duration{font-size:clamp(24px,19.5cqi,60px)}}

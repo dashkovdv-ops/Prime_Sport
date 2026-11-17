@@ -1,0 +1,7 @@
+/* Added only while native JS motion owns the element; source content stays visible. */
+.pm-entering{will-change:opacity,transform}
+.pm-float-live{will-change:translate}
+.fit-dialog[open],.solution-dialog[open]{animation:pm-dialog-open 180ms cubic-bezier(.16,1,.3,1)}
+.is-paused .fit-dialog[open],.is-paused .solution-dialog[open]{animation:none}
+@keyframes pm-dialog-open{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.fit-dialog[open],.solution-dialog[open]{animation-duration:140ms}}

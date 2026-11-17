@@ -1,0 +1,492 @@
+{
+  "version": "43-web-release",
+  "entry": "index.html",
+  "build_command": null,
+  "publish_directory": ".",
+  "slide_count": 19,
+  "last_slides": [
+    "closing",
+    "discussion"
+  ],
+  "runtime_files": {
+    "agenda-screen.css": {
+      "bytes": 4793,
+      "sha256": "89e3b2885b30529f4ba726640012a068352643dc088536444e3ce7f86c15a6cc"
+    },
+    "app.js": {
+      "bytes": 10761,
+      "sha256": "5a064c1fde9f68fc8afb0257d394b3d97fb5eb8c83cfe0667b61b1e27abd9ba9"
+    },
+    "assets/native/benefits-v20/benefits-reference.png": {
+      "bytes": 1810743,
+      "sha256": "72b673428e45c442d965777407afb0cda8df207261204bcaf5d7d385b7d739b6"
+    },
+    "assets/native/brands-v12/funday.svg": {
+      "bytes": 4701,
+      "sha256": "6a9783428cd12e67255ef70369457c1631818f9a2077edc74f1fccd032b05ae2"
+    },
+    "assets/native/brands-v12/kanzler.svg": {
+      "bytes": 1746,
+      "sha256": "de7bdfefd40ccf25754bbe665ee734dee93640bdaae303c2fa1372fb82b9cda4"
+    },
+    "assets/native/brands-v12/sportmaster.svg": {
+      "bytes": 5392,
+      "sha256": "b5c14a04102e9b60fe97d354383d7bb3cfb3c782907d97f42e9dff69555a5c68"
+    },
+    "assets/native/catalogue-v16/slide-01-7ff0562f00f1.png": {
+      "bytes": 2006054,
+      "sha256": "7ff0562f00f1ddd423c39aa810897a8ec8481da082123be45fade05a9c660f51"
+    },
+    "assets/native/costs-v27/costs-reference-01-58697cfe0f46.png": {
+      "bytes": 1772309,
+      "sha256": "58697cfe0f46f4e4dec4d40eae0e1b25ec9fe79bebca90030328e87730f63ead"
+    },
+    "assets/native/fit-v41/catalogue-cutout-01-da27d75aa60f.png": {
+      "bytes": 654720,
+      "sha256": "da27d75aa60fd256070373a0bb2f6115ca27bfc8f6aadbbbc60e37d6ac169657"
+    },
+    "assets/native/fit-v41/comparison-cutout-02-e97d11437140.png": {
+      "bytes": 662697,
+      "sha256": "e97d11437140814b061021cc30684181ed6ac42bd2fa633e79807e35c0a8f9b5"
+    },
+    "assets/native/fit-v7/icons-atlas-v1.png": {
+      "bytes": 1135294,
+      "sha256": "1d057eee1e828d0c1dacdf769826cfa55b293de2607c89055b2f1133672f4ae0"
+    },
+    "assets/native/flagship-v17/slide-01-35fdd2632e27.png": {
+      "bytes": 2151292,
+      "sha256": "35fdd2632e2749e13114d8aee495a187968eace31493ac220afb41d79b8ac2f0"
+    },
+    "assets/native/hero-back.png": {
+      "bytes": 1288513,
+      "sha256": "746070e92fcb505011645bff284d2a74a91cbbdfdee217a55e3246ab230b5d70"
+    },
+    "assets/native/hero-front.png": {
+      "bytes": 1885103,
+      "sha256": "9db55152dc15ab30e09ea2552ca95a8e0e8a5c01690947a0d627dd41d15c6b2e"
+    },
+    "assets/native/logo.svg": {
+      "bytes": 3182,
+      "sha256": "376556af1e65cd2706f6e92cb5841d4571f342c2265046df9660dcb5e8261cac"
+    },
+    "assets/native/planning-v20/icons-ten-generated.png": {
+      "bytes": 2083961,
+      "sha256": "ca87f24de56c0f0b73b9b8ff1919f2a95ae1b6dbd2c6482097f44f67f14eaa1c"
+    },
+    "assets/native/process-images-v15/individual/icon-01-look.png": {
+      "bytes": 138370,
+      "sha256": "5c923cd042e630d71fa9308b38cd9d4cc339b4d8074596f6aa0b9cb0fdd36004"
+    },
+    "assets/native/process-images-v15/individual/icon-04-dress.png": {
+      "bytes": 151491,
+      "sha256": "3fcf59a6fa7bc8d57e89ac34ed52d7bf39b6e08b05430d06e053903d26dfad2f"
+    },
+    "assets/native/process-images-v15/individual/icon-07-product-fit.png": {
+      "bytes": 141511,
+      "sha256": "e1915175f0616f3a30e61f71e684cbafe5af23a80b12a357168329d08d8bd124"
+    },
+    "assets/native/process-images-v15/individual/icon-10-reshoot.png": {
+      "bytes": 160771,
+      "sha256": "135930b990db7cd05a7dcbde60eac45f21e3bd6249a514f17bbb2dacc5c964dc"
+    },
+    "assets/native/process-images-v15/individual/icon-13-photo-angles.png": {
+      "bytes": 152588,
+      "sha256": "6061305930d84c2ee115c3660945baa302ee8d6cc6db5d58582dd7e161c0fbc6"
+    },
+    "assets/native/process-images-v15/individual/icon-23-video-generate.png": {
+      "bytes": 175147,
+      "sha256": "30e1e38a117dbf4555f62addd8023592a6b385d0d8bc66a3a1b3350ed3a406dd"
+    },
+    "assets/native/prototype-v26/screen-01-482974a3d3fd.png": {
+      "bytes": 1132770,
+      "sha256": "482974a3d3fd3d76f6f223eeb2d31da6d6f1616f0ebdd9f09a01cecf73384bc0"
+    },
+    "assets/native/solution-v28/phone-capture-black-trousers.png": {
+      "bytes": 1854148,
+      "sha256": "eab2940056b5746b7227f6c5fa735bdf10753be3b4764ace996e0f87704a0704"
+    },
+    "assets/native/solution-v8/photostation.png": {
+      "bytes": 1886794,
+      "sha256": "f1bfc72ac309dc17701022aa9883055e7c4155e1ea6553aae12431ad1defe369"
+    },
+    "benefits-screen.css": {
+      "bytes": 3332,
+      "sha256": "61b8a79e2d8d21eeeb257b75b6a46831a28b5f588b40f941c2b5b9d511d6c988"
+    },
+    "catalogue-screen.css": {
+      "bytes": 4901,
+      "sha256": "1115d2225134d648431411dc4d986d8d3176da94666d154ef8335ee86b965ea2"
+    },
+    "catalogue-screen.js": {
+      "bytes": 2642,
+      "sha256": "24eac4befa83e3295c91acebc240dc7c4ab5b66ba5a26e3b88ffc6ad67798b0b"
+    },
+    "closing-screen.css": {
+      "bytes": 1721,
+      "sha256": "120ab53a830f0085e9b822f83e8d999a252aacc90327efa0547832408324b56c"
+    },
+    "costs-screen.css": {
+      "bytes": 3960,
+      "sha256": "ec909f8ee2b2448d5aaae78dad310ceb7388c2b1d2a27409365485356dc3c896"
+    },
+    "discussion-screen.css": {
+      "bytes": 2632,
+      "sha256": "d2f7e121771bbdad692904dfbf5b301b5c219a325a5ab3d45d83c8da9ae4a86a"
+    },
+    "fit-screen.css": {
+      "bytes": 8252,
+      "sha256": "f3ed6ceaea483251ceb8570f89762ac5155fc5459cd169697583737b54a78beb"
+    },
+    "flagship-screen.css": {
+      "bytes": 3863,
+      "sha256": "010427970168636b616b5c7a5182f7e96f107949346a74b60907e6a29a2bb684"
+    },
+    "flagship-screen.js": {
+      "bytes": 2096,
+      "sha256": "d9ef442b9c0bf53b99185969de03cb85f2ddc21261ae89a3c9e6e612be88328a"
+    },
+    "font-assets.css": {
+      "bytes": 253132,
+      "sha256": "576bf67c5500301e696c803a215c8889ceae8a2363e1fe70647e520bf884343e"
+    },
+    "funday-screen.css": {
+      "bytes": 5678,
+      "sha256": "6cfa439b2bb82a2eb2d463b13b40c3d443d232b2ae3c01fdb88e701541135f0b"
+    },
+    "header-navigation.css": {
+      "bytes": 4086,
+      "sha256": "2163db8c5cf138d43403705a58ade3505593c7cbc847c51aa4f5fc9e195a05bd"
+    },
+    "header-navigation.js": {
+      "bytes": 3835,
+      "sha256": "cbfd37d660013b782d1e7e885648ee8cdafdbea6dd6201f509a9a4b6bd582c8d"
+    },
+    "hero-system.css": {
+      "bytes": 2294,
+      "sha256": "86e688d1f784c505536a4605f885f7c3e28ec81c246c796d7021a7fc54a4a961"
+    },
+    "index.html": {
+      "bytes": 72690,
+      "sha256": "604381a9646075e53018688de2b7a3820c112eaa74959282b975d7c3fec6d9b7"
+    },
+    "kanzler-screen.css": {
+      "bytes": 5451,
+      "sha256": "2f2304535ee5db0637e436d24fb51847193eed0e4fdf80f1bdbdd899e26b43c2"
+    },
+    "linear-slides.css": {
+      "bytes": 1311,
+      "sha256": "09caedee325843b6c5f6806496409ef62457c00e9b0ed500ad857937a9316356"
+    },
+    "planning-screen.css": {
+      "bytes": 7009,
+      "sha256": "7b6f7bc8338eec7439a7ad56f81c756317b68e1760194baf0fd48a45b509abbe"
+    },
+    "presentation-motion.css": {
+      "bytes": 509,
+      "sha256": "677a91f97b8c633a3d0ed0d824330923c122fbe303f54d72e5e95d7830e94b82"
+    },
+    "presentation-motion.js": {
+      "bytes": 13603,
+      "sha256": "44f063b87b6ac9c3be2972f95651b84d6677380d0431004acebc4fef7822040c"
+    },
+    "process-art.js": {
+      "bytes": 1707,
+      "sha256": "a40ddfe5ffcc00a36b3ce3265fc65781606653f1ce65e03ac41c7c4f4f78ee79"
+    },
+    "process-data.js": {
+      "bytes": 23582,
+      "sha256": "dd68a00b1d88bc05a08c458d03faa693912ab16ccb2f93c06c5dd32ff7ccbd77"
+    },
+    "process-image-assets.js": {
+      "bytes": 6192366,
+      "sha256": "d2d1968a7126d5e0b23e024bb9eccaf85830e10c2bd762b5f7c969a1377234e4"
+    },
+    "process-map.css": {
+      "bytes": 14050,
+      "sha256": "2a258657c4c7472811fa32718cb1cee5359ced5aee0aca32913b52694a076bcb"
+    },
+    "process-map.js": {
+      "bytes": 25220,
+      "sha256": "58e41d033318dfb739183188de6ac9e4098d4333edbeea51ca6ff7040856fc50"
+    },
+    "prototype-screen.css": {
+      "bytes": 2831,
+      "sha256": "20b7e38eef358572b7e4a699a6823e662c5a3d581ed0a19f6e49d763b33c303c"
+    },
+    "rollout-screen.css": {
+      "bytes": 5513,
+      "sha256": "f83ef15390111c6c57c414a480ad17803243b6a258eb0a7782dea2f1c9900d06"
+    },
+    "rollout-screen.js": {
+      "bytes": 8796,
+      "sha256": "fe03c5258f10cba610078ef0a3fd62c76fa0943cc643366f7b9e78c799801b85"
+    },
+    "solution-screen.css": {
+      "bytes": 6234,
+      "sha256": "340c65a016933e191b54d2ea7dcb88f294303b74d2809933b7e151907884465b"
+    },
+    "solution-screen.js": {
+      "bytes": 3520,
+      "sha256": "ebe2f2c843039a0ea28ea8293703f3fb7be660ee28194cb5830111ab8993e822"
+    },
+    "sportmaster-screen.css": {
+      "bytes": 6117,
+      "sha256": "b6f39fb9d35cf19ff59894acab82a350ceb601750ca13dd01f4637945661ae83"
+    },
+    "styles.css": {
+      "bytes": 19717,
+      "sha256": "0d6f27858027e139648acd5c27f4d06801218b1f777fcba9ab819bb272d3ee1a"
+    },
+    "wheel-navigation.js": {
+      "bytes": 2695,
+      "sha256": "103184e5115a649e341c0389f154e906996f5dc9e7bc83828d3cb5eae78600f1"
+    }
+  },
+  "files": {
+    ".nojekyll": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "agenda-screen.css": {
+      "bytes": 4793,
+      "sha256": "89e3b2885b30529f4ba726640012a068352643dc088536444e3ce7f86c15a6cc"
+    },
+    "app.js": {
+      "bytes": 10761,
+      "sha256": "5a064c1fde9f68fc8afb0257d394b3d97fb5eb8c83cfe0667b61b1e27abd9ba9"
+    },
+    "assets/native/benefits-v20/benefits-reference.png": {
+      "bytes": 1810743,
+      "sha256": "72b673428e45c442d965777407afb0cda8df207261204bcaf5d7d385b7d739b6"
+    },
+    "assets/native/brands-v12/funday.svg": {
+      "bytes": 4701,
+      "sha256": "6a9783428cd12e67255ef70369457c1631818f9a2077edc74f1fccd032b05ae2"
+    },
+    "assets/native/brands-v12/kanzler.svg": {
+      "bytes": 1746,
+      "sha256": "de7bdfefd40ccf25754bbe665ee734dee93640bdaae303c2fa1372fb82b9cda4"
+    },
+    "assets/native/brands-v12/sportmaster.svg": {
+      "bytes": 5392,
+      "sha256": "b5c14a04102e9b60fe97d354383d7bb3cfb3c782907d97f42e9dff69555a5c68"
+    },
+    "assets/native/catalogue-v16/slide-01-7ff0562f00f1.png": {
+      "bytes": 2006054,
+      "sha256": "7ff0562f00f1ddd423c39aa810897a8ec8481da082123be45fade05a9c660f51"
+    },
+    "assets/native/costs-v27/costs-reference-01-58697cfe0f46.png": {
+      "bytes": 1772309,
+      "sha256": "58697cfe0f46f4e4dec4d40eae0e1b25ec9fe79bebca90030328e87730f63ead"
+    },
+    "assets/native/fit-v41/catalogue-cutout-01-da27d75aa60f.png": {
+      "bytes": 654720,
+      "sha256": "da27d75aa60fd256070373a0bb2f6115ca27bfc8f6aadbbbc60e37d6ac169657"
+    },
+    "assets/native/fit-v41/comparison-cutout-02-e97d11437140.png": {
+      "bytes": 662697,
+      "sha256": "e97d11437140814b061021cc30684181ed6ac42bd2fa633e79807e35c0a8f9b5"
+    },
+    "assets/native/fit-v7/icons-atlas-v1.png": {
+      "bytes": 1135294,
+      "sha256": "1d057eee1e828d0c1dacdf769826cfa55b293de2607c89055b2f1133672f4ae0"
+    },
+    "assets/native/flagship-v17/slide-01-35fdd2632e27.png": {
+      "bytes": 2151292,
+      "sha256": "35fdd2632e2749e13114d8aee495a187968eace31493ac220afb41d79b8ac2f0"
+    },
+    "assets/native/hero-back.png": {
+      "bytes": 1288513,
+      "sha256": "746070e92fcb505011645bff284d2a74a91cbbdfdee217a55e3246ab230b5d70"
+    },
+    "assets/native/hero-front.png": {
+      "bytes": 1885103,
+      "sha256": "9db55152dc15ab30e09ea2552ca95a8e0e8a5c01690947a0d627dd41d15c6b2e"
+    },
+    "assets/native/logo.svg": {
+      "bytes": 3182,
+      "sha256": "376556af1e65cd2706f6e92cb5841d4571f342c2265046df9660dcb5e8261cac"
+    },
+    "assets/native/planning-v20/icons-ten-generated.png": {
+      "bytes": 2083961,
+      "sha256": "ca87f24de56c0f0b73b9b8ff1919f2a95ae1b6dbd2c6482097f44f67f14eaa1c"
+    },
+    "assets/native/process-images-v15/individual/icon-01-look.png": {
+      "bytes": 138370,
+      "sha256": "5c923cd042e630d71fa9308b38cd9d4cc339b4d8074596f6aa0b9cb0fdd36004"
+    },
+    "assets/native/process-images-v15/individual/icon-04-dress.png": {
+      "bytes": 151491,
+      "sha256": "3fcf59a6fa7bc8d57e89ac34ed52d7bf39b6e08b05430d06e053903d26dfad2f"
+    },
+    "assets/native/process-images-v15/individual/icon-07-product-fit.png": {
+      "bytes": 141511,
+      "sha256": "e1915175f0616f3a30e61f71e684cbafe5af23a80b12a357168329d08d8bd124"
+    },
+    "assets/native/process-images-v15/individual/icon-10-reshoot.png": {
+      "bytes": 160771,
+      "sha256": "135930b990db7cd05a7dcbde60eac45f21e3bd6249a514f17bbb2dacc5c964dc"
+    },
+    "assets/native/process-images-v15/individual/icon-13-photo-angles.png": {
+      "bytes": 152588,
+      "sha256": "6061305930d84c2ee115c3660945baa302ee8d6cc6db5d58582dd7e161c0fbc6"
+    },
+    "assets/native/process-images-v15/individual/icon-23-video-generate.png": {
+      "bytes": 175147,
+      "sha256": "30e1e38a117dbf4555f62addd8023592a6b385d0d8bc66a3a1b3350ed3a406dd"
+    },
+    "assets/native/prototype-v26/screen-01-482974a3d3fd.png": {
+      "bytes": 1132770,
+      "sha256": "482974a3d3fd3d76f6f223eeb2d31da6d6f1616f0ebdd9f09a01cecf73384bc0"
+    },
+    "assets/native/solution-v28/phone-capture-black-trousers.png": {
+      "bytes": 1854148,
+      "sha256": "eab2940056b5746b7227f6c5fa735bdf10753be3b4764ace996e0f87704a0704"
+    },
+    "assets/native/solution-v8/photostation.png": {
+      "bytes": 1886794,
+      "sha256": "f1bfc72ac309dc17701022aa9883055e7c4155e1ea6553aae12431ad1defe369"
+    },
+    "benefits-screen.css": {
+      "bytes": 3332,
+      "sha256": "61b8a79e2d8d21eeeb257b75b6a46831a28b5f588b40f941c2b5b9d511d6c988"
+    },
+    "catalogue-screen.css": {
+      "bytes": 4901,
+      "sha256": "1115d2225134d648431411dc4d986d8d3176da94666d154ef8335ee86b965ea2"
+    },
+    "catalogue-screen.js": {
+      "bytes": 2642,
+      "sha256": "24eac4befa83e3295c91acebc240dc7c4ab5b66ba5a26e3b88ffc6ad67798b0b"
+    },
+    "closing-screen.css": {
+      "bytes": 1721,
+      "sha256": "120ab53a830f0085e9b822f83e8d999a252aacc90327efa0547832408324b56c"
+    },
+    "costs-screen.css": {
+      "bytes": 3960,
+      "sha256": "ec909f8ee2b2448d5aaae78dad310ceb7388c2b1d2a27409365485356dc3c896"
+    },
+    "discussion-screen.css": {
+      "bytes": 2632,
+      "sha256": "d2f7e121771bbdad692904dfbf5b301b5c219a325a5ab3d45d83c8da9ae4a86a"
+    },
+    "fit-screen.css": {
+      "bytes": 8252,
+      "sha256": "f3ed6ceaea483251ceb8570f89762ac5155fc5459cd169697583737b54a78beb"
+    },
+    "flagship-screen.css": {
+      "bytes": 3863,
+      "sha256": "010427970168636b616b5c7a5182f7e96f107949346a74b60907e6a29a2bb684"
+    },
+    "flagship-screen.js": {
+      "bytes": 2096,
+      "sha256": "d9ef442b9c0bf53b99185969de03cb85f2ddc21261ae89a3c9e6e612be88328a"
+    },
+    "font-assets.css": {
+      "bytes": 253132,
+      "sha256": "576bf67c5500301e696c803a215c8889ceae8a2363e1fe70647e520bf884343e"
+    },
+    "funday-screen.css": {
+      "bytes": 5678,
+      "sha256": "6cfa439b2bb82a2eb2d463b13b40c3d443d232b2ae3c01fdb88e701541135f0b"
+    },
+    "HANDOFF.md": {
+      "bytes": 1897,
+      "sha256": "efffa72bb3690841c7f0aabc7386256ec3b1443130d01b8b8804a5e96565c3bd"
+    },
+    "header-navigation.css": {
+      "bytes": 4086,
+      "sha256": "2163db8c5cf138d43403705a58ade3505593c7cbc847c51aa4f5fc9e195a05bd"
+    },
+    "header-navigation.js": {
+      "bytes": 3835,
+      "sha256": "cbfd37d660013b782d1e7e885648ee8cdafdbea6dd6201f509a9a4b6bd582c8d"
+    },
+    "hero-system.css": {
+      "bytes": 2294,
+      "sha256": "86e688d1f784c505536a4605f885f7c3e28ec81c246c796d7021a7fc54a4a961"
+    },
+    "index.html": {
+      "bytes": 72690,
+      "sha256": "604381a9646075e53018688de2b7a3820c112eaa74959282b975d7c3fec6d9b7"
+    },
+    "kanzler-screen.css": {
+      "bytes": 5451,
+      "sha256": "2f2304535ee5db0637e436d24fb51847193eed0e4fdf80f1bdbdd899e26b43c2"
+    },
+    "linear-slides.css": {
+      "bytes": 1311,
+      "sha256": "09caedee325843b6c5f6806496409ef62457c00e9b0ed500ad857937a9316356"
+    },
+    "planning-screen.css": {
+      "bytes": 7009,
+      "sha256": "7b6f7bc8338eec7439a7ad56f81c756317b68e1760194baf0fd48a45b509abbe"
+    },
+    "presentation-motion.css": {
+      "bytes": 509,
+      "sha256": "677a91f97b8c633a3d0ed0d824330923c122fbe303f54d72e5e95d7830e94b82"
+    },
+    "presentation-motion.js": {
+      "bytes": 13603,
+      "sha256": "44f063b87b6ac9c3be2972f95651b84d6677380d0431004acebc4fef7822040c"
+    },
+    "process-art.js": {
+      "bytes": 1707,
+      "sha256": "a40ddfe5ffcc00a36b3ce3265fc65781606653f1ce65e03ac41c7c4f4f78ee79"
+    },
+    "process-data.js": {
+      "bytes": 23582,
+      "sha256": "dd68a00b1d88bc05a08c458d03faa693912ab16ccb2f93c06c5dd32ff7ccbd77"
+    },
+    "process-image-assets.js": {
+      "bytes": 6192366,
+      "sha256": "d2d1968a7126d5e0b23e024bb9eccaf85830e10c2bd762b5f7c969a1377234e4"
+    },
+    "process-map.css": {
+      "bytes": 14050,
+      "sha256": "2a258657c4c7472811fa32718cb1cee5359ced5aee0aca32913b52694a076bcb"
+    },
+    "process-map.js": {
+      "bytes": 25220,
+      "sha256": "58e41d033318dfb739183188de6ac9e4098d4333edbeea51ca6ff7040856fc50"
+    },
+    "prototype-screen.css": {
+      "bytes": 2831,
+      "sha256": "20b7e38eef358572b7e4a699a6823e662c5a3d581ed0a19f6e49d763b33c303c"
+    },
+    "README.md": {
+      "bytes": 4665,
+      "sha256": "e3315f5ef8bab203b5c0e5ab7b798684384ece560efdaf30246c8e78f97da5ac"
+    },
+    "rollout-screen.css": {
+      "bytes": 5513,
+      "sha256": "f83ef15390111c6c57c414a480ad17803243b6a258eb0a7782dea2f1c9900d06"
+    },
+    "rollout-screen.js": {
+      "bytes": 8796,
+      "sha256": "fe03c5258f10cba610078ef0a3fd62c76fa0943cc643366f7b9e78c799801b85"
+    },
+    "solution-screen.css": {
+      "bytes": 6234,
+      "sha256": "340c65a016933e191b54d2ea7dcb88f294303b74d2809933b7e151907884465b"
+    },
+    "solution-screen.js": {
+      "bytes": 3520,
+      "sha256": "ebe2f2c843039a0ea28ea8293703f3fb7be660ee28194cb5830111ab8993e822"
+    },
+    "sportmaster-screen.css": {
+      "bytes": 6117,
+      "sha256": "b6f39fb9d35cf19ff59894acab82a350ceb601750ca13dd01f4637945661ae83"
+    },
+    "styles.css": {
+      "bytes": 19717,
+      "sha256": "0d6f27858027e139648acd5c27f4d06801218b1f777fcba9ab819bb272d3ee1a"
+    },
+    "wheel-navigation.js": {
+      "bytes": 2695,
+      "sha256": "103184e5115a649e341c0389f154e906996f5dc9e7bc83828d3cb5eae78600f1"
+    }
+  },
+  "manifest_self_hash_excluded": true
+}

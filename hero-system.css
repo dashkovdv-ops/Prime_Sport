@@ -1,0 +1,19 @@
+/* Exact supplied Studio windows and original product pixels within the existing hero layers. */
+#home .hero-scene{margin-left:0;margin-right:0}
+#home .hero-front{width:82%;height:63%;left:1%;top:17%;z-index:2;--base-angle:-3deg}
+#home .hero-model{width:34%;height:38%;right:0;top:0;z-index:3}
+#home .hero-back{width:46%;height:33%;right:2%;bottom:0;z-index:4}
+#home .hero-front .hero-glass{padding:12px}
+#home .hero-model .hero-glass{padding:8px}
+#home .hero-back .hero-glass{padding:18px 16px 13px}
+.hero-system-window,.hero-profile-window{display:block;width:100%;height:100%;overflow:hidden;pointer-events:none;user-select:none}
+.hero-system-window{border-radius:22px}
+.hero-profile-window{border-radius:20px}
+.hero-product-pair{width:100%;height:100%;min-height:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.hero-product-pair figure{margin:0;min-width:0;min-height:0;display:grid;grid-template-rows:minmax(0,1fr) auto;gap:6px}
+#home .hero-product-pair img{width:100%;height:100%;min-height:0;object-fit:contain;filter:drop-shadow(0 8px 7px #43344618)}
+.hero-product-pair figcaption{text-align:center;font-size:16px;line-height:1.2;color:#4b4258}
+@media(min-width:1101px) and (max-height:900px){#home.hero-page{padding-top:112px;padding-bottom:44px}#home .hero-scene{height:clamp(380px,calc(100svh - 180px),560px)}}
+@media(max-width:1180px){#home .hero-front{width:82%;height:63%}#home .hero-model{width:34%;height:38%;right:0}#home .hero-back{width:46%;height:33%;right:2%}.hero-product-pair{gap:8px}.hero-product-pair figcaption{font-size:14px}}
+@media(max-width:940px){#home .hero-scene{width:min(640px,100%);height:540px;margin:18px auto 0}#home .hero-front{left:2%;top:18%;width:80%;height:63%}#home .hero-model{width:34%;height:38%;right:1%}#home .hero-back{width:46%;height:33%;right:3%}}
+@media(max-width:680px){#home .hero-scene{height:clamp(360px,104vw,460px);margin-top:26px}#home .hero-front .hero-glass{padding:7px;border-radius:24px}#home .hero-model .hero-glass{padding:5px;border-radius:22px}#home .hero-back .hero-glass{padding:11px 9px 8px;border-radius:22px}.hero-system-window{border-radius:17px}.hero-profile-window{border-radius:16px}.hero-product-pair{gap:5px}.hero-product-pair figure{gap:4px}.hero-product-pair figcaption{font-size:12px}}

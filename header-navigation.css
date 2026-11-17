@@ -1,0 +1,24 @@
+/* Header axis follows the visible wordmark, not the entire SVG canvas. */
+.site-header{--header-logo-width:clamp(160px,15vw,236px);--wordmark-offset:calc(var(--header-logo-width)*.0442223);display:grid;grid-template-columns:var(--header-logo-width) minmax(0,1fr) auto auto;align-items:center;justify-content:normal;gap:18px;height:88px;padding:12px clamp(24px,4.2vw,80px)}
+.site-header .brand-link{width:var(--header-logo-width);min-width:0}
+.site-header .brand-link img{width:100%;height:auto}
+.header-menu,.site-header>.control-slot,.site-header>.header-fullscreen{transform:translateY(var(--wordmark-offset))}
+.header-menu{display:grid;grid-template-columns:44px minmax(0,1fr) 44px;gap:6px;align-items:center;min-width:0;width:100%;height:44px}
+.header-menu .page-links{display:flex;align-items:center;min-width:0;width:100%;height:44px;margin:0;gap:6px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none;overscroll-behavior-x:contain;scroll-padding-inline:8px;touch-action:pan-x}
+.header-menu .page-links::-webkit-scrollbar{display:none}
+.header-menu .page-links>a,.header-menu .page-links>a:first-child,.header-menu .page-links>a[href="#why"]{display:block;flex:0 0 auto;padding:10px 12px;font-size:16px;line-height:20px;white-space:nowrap}
+.menu-scroll{display:grid;place-items:center;width:44px;height:44px;padding:10px;border:1px solid #ffffffd9;border-radius:12px;background:#ffffff42;color:#51485f;cursor:pointer;transition:background .16s,color .16s}
+.menu-scroll svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.menu-scroll:hover:not(:disabled){background:#ffffffa3;color:var(--red)}
+.menu-scroll:disabled{opacity:.32;cursor:default}
+.menu-scroll:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.header-menu.can-scroll-right .page-links{mask-image:linear-gradient(to right,#000 calc(100% - 12px),transparent)}
+.header-menu.can-scroll-left .page-links{mask-image:linear-gradient(to right,transparent,#000 12px)}
+.header-menu.can-scroll-left.can-scroll-right .page-links{mask-image:linear-gradient(to right,transparent,#000 12px,#000 calc(100% - 12px),transparent)}
+.header-motion-controls{display:flex;align-items:center;justify-self:end;gap:4px}
+.header-motion-controls[hidden]{display:none}
+@media(max-width:1100px){.site-header{--header-logo-width:180px;padding-inline:24px;gap:12px}.header-menu .page-links>a{font-size:14px;padding-inline:10px}.header-menu{gap:4px;grid-template-columns:40px minmax(0,1fr) 40px}.menu-scroll{width:40px;height:40px;padding:9px}}
+@media(max-width:900px){.site-header{--header-logo-width:160px;grid-template-columns:var(--header-logo-width) minmax(0,1fr) auto;padding-inline:20px;gap:10px}.header-menu .page-links>a{font-size:13px}.site-header>.header-fullscreen{display:none}}
+@media(max-width:680px){.site-header{grid-template-columns:var(--header-logo-width) minmax(0,1fr);grid-template-rows:48px 44px;height:119px;min-height:119px;padding:8px 20px 10px;gap:8px 10px}.site-header>.brand-link{grid-column:1;grid-row:1}.site-header>.control-slot{grid-column:2;grid-row:1;justify-self:end}.site-header>.header-menu{grid-column:1/-1;grid-row:2;width:calc(100% - 80px);transform:none;grid-template-columns:36px minmax(0,1fr) 36px;gap:4px}.menu-scroll{width:36px;height:40px;padding:8px}.header-menu .page-links>a{padding-inline:10px;font-size:13px}.header-menu .page-links{gap:4px}.site-header .controls{padding:3px 4px;gap:1px}.site-header .controls .icon-button{width:32px;height:34px}.site-header .controls #counter{min-width:38px;font-size:12px}.site-header .controls .control-divider{display:none}.header-motion-controls{grid-column:2;grid-row:2;align-self:center}.header-motion-controls .icon-button{width:34px;height:38px;padding:8px}.header-motion-controls .icon-button:hover{background:#fff9}}
+@media(max-width:360px){.site-header{--header-logo-width:140px;padding-inline:16px;column-gap:8px}.header-menu .page-links>a{font-size:12px;padding-inline:9px}}
+@media(prefers-reduced-motion:reduce){.menu-scroll{transition:none}}

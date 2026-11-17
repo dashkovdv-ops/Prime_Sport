@@ -1,0 +1,13 @@
+/* Ordinary native case slides and the user's logo-only overview. */
+#cases .case-overview{align-items:stretch;padding-top:24px}
+#cases .case-cover{display:flex;align-items:center;justify-content:center;min-height:330px;padding:38px;gap:0}
+#cases .brand-wordmark{display:flex;align-items:center;justify-content:center;width:100%;height:144px;min-height:0;margin:0}
+#cases .brand-logo{display:block;width:min(100%,340px);height:124px;object-fit:contain;max-width:100%}
+.brand-case-page{display:flex;flex-direction:column;gap:28px}
+.brand-case-page *,.brand-case-page *::before,.brand-case-page *::after{animation:none!important;transition:none!important}
+.brand-case-page .motion-surface{transform:none!important}
+.brand-case-page .sportmaster-navigation a,.brand-case-page .kanzler-navigation a,.brand-case-page .case-bottom>a{display:inline-flex;align-items:center;text-decoration:none}
+.brand-case-page .section-heading>.text-button{margin-left:auto}
+.brand-case-page .case-next{flex-shrink:0}
+@media(max-width:1180px){#cases .case-cover{min-height:290px;padding:30px}#cases .brand-logo{height:110px}}
+@media(max-width:680px){#cases .case-overview{padding-top:4px}#cases .case-cover{min-height:210px;padding:30px}#cases .brand-wordmark{height:110px}#cases .brand-logo{height:100px}.brand-case-page{gap:24px}}
