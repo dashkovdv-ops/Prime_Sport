@@ -5,3 +5,7 @@
 .is-paused .fit-dialog[open],.is-paused .solution-dialog[open]{animation:none}
 @keyframes pm-dialog-open{from{opacity:0}to{opacity:1}}
 @media(prefers-reduced-motion:reduce){.fit-dialog[open],.solution-dialog[open]{animation-duration:140ms}}
+@media print{
+  [data-pm-hidden],.pm-entering{opacity:1!important;transform:none!important}
+  .pm-float-live{translate:none!important}
+}

@@ -1,5 +1,5 @@
 {
-  "version": "43-web-release",
+  "version": "44-scroll-motion",
   "entry": "index.html",
   "build_command": null,
   "publish_directory": ".",
@@ -166,8 +166,8 @@
       "sha256": "86e688d1f784c505536a4605f885f7c3e28ec81c246c796d7021a7fc54a4a961"
     },
     "index.html": {
-      "bytes": 72690,
-      "sha256": "604381a9646075e53018688de2b7a3820c112eaa74959282b975d7c3fec6d9b7"
+      "bytes": 72734,
+      "sha256": "d93882729d29985542bf11c5a13f3bae5f6031fcc7236f18040df23926bf3890"
     },
     "kanzler-screen.css": {
       "bytes": 5451,
@@ -182,12 +182,12 @@
       "sha256": "7b6f7bc8338eec7439a7ad56f81c756317b68e1760194baf0fd48a45b509abbe"
     },
     "presentation-motion.css": {
-      "bytes": 509,
-      "sha256": "677a91f97b8c633a3d0ed0d824330923c122fbe303f54d72e5e95d7830e94b82"
+      "bytes": 646,
+      "sha256": "1aaea4ac9c1eddf74dc3135caf9be7d1f9c57b4ba9f4f0615f7267337696e139"
     },
     "presentation-motion.js": {
-      "bytes": 13603,
-      "sha256": "44f063b87b6ac9c3be2972f95651b84d6677380d0431004acebc4fef7822040c"
+      "bytes": 14874,
+      "sha256": "04861a7e2b726d80461507245879df1a1c42b392209f8af853187312bfcd42dc"
     },
     "process-art.js": {
       "bytes": 1707,
@@ -408,8 +408,8 @@
       "sha256": "86e688d1f784c505536a4605f885f7c3e28ec81c246c796d7021a7fc54a4a961"
     },
     "index.html": {
-      "bytes": 72690,
-      "sha256": "604381a9646075e53018688de2b7a3820c112eaa74959282b975d7c3fec6d9b7"
+      "bytes": 72734,
+      "sha256": "d93882729d29985542bf11c5a13f3bae5f6031fcc7236f18040df23926bf3890"
     },
     "kanzler-screen.css": {
       "bytes": 5451,
@@ -424,12 +424,12 @@
       "sha256": "7b6f7bc8338eec7439a7ad56f81c756317b68e1760194baf0fd48a45b509abbe"
     },
     "presentation-motion.css": {
-      "bytes": 509,
-      "sha256": "677a91f97b8c633a3d0ed0d824330923c122fbe303f54d72e5e95d7830e94b82"
+      "bytes": 646,
+      "sha256": "1aaea4ac9c1eddf74dc3135caf9be7d1f9c57b4ba9f4f0615f7267337696e139"
     },
     "presentation-motion.js": {
-      "bytes": 13603,
-      "sha256": "44f063b87b6ac9c3be2972f95651b84d6677380d0431004acebc4fef7822040c"
+      "bytes": 14874,
+      "sha256": "04861a7e2b726d80461507245879df1a1c42b392209f8af853187312bfcd42dc"
     },
     "process-art.js": {
       "bytes": 1707,
@@ -456,8 +456,8 @@
       "sha256": "20b7e38eef358572b7e4a699a6823e662c5a3d581ed0a19f6e49d763b33c303c"
     },
     "README.md": {
-      "bytes": 4665,
-      "sha256": "e3315f5ef8bab203b5c0e5ab7b798684384ece560efdaf30246c8e78f97da5ac"
+      "bytes": 5985,
+      "sha256": "989be56dd42d2e9d9ce34c3333ea01ff2593699152ed40210d4a6d7bf77139c6"
     },
     "rollout-screen.css": {
       "bytes": 5513,
@@ -486,6 +486,10 @@
     "wheel-navigation.js": {
       "bytes": 2695,
       "sha256": "103184e5115a649e341c0389f154e906996f5dc9e7bc83828d3cb5eae78600f1"
+    },
+    "qa/motion-smoke.cjs": {
+      "bytes": 10321,
+      "sha256": "511854e14ce0e7302453a54622f6c2d81f239613efd0f14a0db640576c7ea478"
     }
   },
   "manifest_self_hash_excluded": true
